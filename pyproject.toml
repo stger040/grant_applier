@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grant-applier"
+version = "0.1.0"
+description = "CLI scaffolding for grant opportunity inventory and analysis."
+readme = "AGENT_CONTEXT.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+grant-applier = "grant_applier.cli:main"

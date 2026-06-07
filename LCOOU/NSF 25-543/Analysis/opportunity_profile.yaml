@@ -1,0 +1,23 @@
+applicant_folder: "LCOOU"
+opportunity_folder: "NSF 25-543"
+likely_applicant: "Lac Courte Oreilles Ojibwe University (LCOOU)"
+opportunity_number: "NSF 25-543"
+opportunity_title: "[CONFIRM]"
+funder: "National Science Foundation"
+submission_system: "Research.gov + Grants.gov"
+deadline: "[CONFIRM]"
+award_ceiling: "[CONFIRM]"
+project_period: "[CONFIRM]"
+eligibility:
+  sgdi_eligible: "N/A"
+  notes:
+    - "[TODO] Verify applicant eligibility from official funder guidance."
+cost_share_required: "[CONFIRM]"
+indirect_cost_rules: "[CONFIRM]"
+source_status:
+  local_grants_gov_notice_found: false
+  full_nofo_found: true
+  official_funder_page_found: false
+known_local_source_documents:
+  - "NSF 25-543_ Computer and Information Science and Engineering _ Future Computing Research (Future CoRe) _ NSF - U.S. National Science Foundation.pdf"
+human_review_required: true

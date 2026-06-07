@@ -1,0 +1,23 @@
+applicant_folder: "SGDI"
+opportunity_folder: "PDS-UAE-01-FY2026"
+likely_applicant: "St Germaine Data Innovations (SGDI)"
+opportunity_number: "PDS-UAE-01-FY2026"
+opportunity_title: "[CONFIRM]"
+funder: "[CONFIRM]"
+submission_system: "[CONFIRM]"
+deadline: "[CONFIRM]"
+award_ceiling: "[CONFIRM]"
+project_period: "[CONFIRM]"
+eligibility:
+  sgdi_eligible: "[CONFIRM]"
+  notes:
+    - "[TODO] Verify applicant eligibility from official funder guidance."
+cost_share_required: "[CONFIRM]"
+indirect_cost_rules: "[CONFIRM]"
+source_status:
+  local_grants_gov_notice_found: true
+  full_nofo_found: false
+  official_funder_page_found: false
+known_local_source_documents:
+  - "Search Results Detail _ Grants.gov.pdf"
+human_review_required: true
