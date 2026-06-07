@@ -1,0 +1,43 @@
+---
+description: Grant Applier repo rules for grant research, requirement extraction, drafting, budgeting, and compliance validation
+alwaysApply: true
+---
+
+# Grant Applier Rules
+
+This repository builds an AI-assisted grant drafting system for SGDI and partner organizations.
+
+Always treat local grant folders as incomplete until official funder NOFO/application instructions have been verified.
+
+Source priority:
+1. Official funder NOFO/solicitation/application instructions.
+2. Official agency policy guide/manual.
+3. Grants.gov opportunity notice.
+4. Local files.
+5. Other reputable sources.
+
+Do not fabricate due dates, eligibility, page limits, required documents, award ceilings, match requirements, indirect cost rules, or review criteria.
+
+Use `[TODO]` or `[CONFIRM]` for missing facts and add all unresolved items to `Analysis/human_review_todo.md`.
+
+For SGDI folders, draft SGDI as the direct applicant only if eligibility allows. Otherwise flag an eligibility risk.
+
+For AAIP folders, AAIP is likely prime. Do not make AAIP look like a fiscal sponsor. AAIP should have meaningful lead organization control.
+
+For LCOOU folders, LCOOU is likely prime/academic partner unless source documents indicate otherwise.
+
+Use the completed `AAIP/26-509/Drafts/` package as the quality benchmark.
+
+Generated grant drafts should be professional, funder-facing, and submission-style. Do not include internal reasoning inside draft documents.
+
+Every opportunity should produce:
+- `Sources/source_index.md`
+- `Sources/sources.json`
+- `Analysis/opportunity_profile.yaml`
+- `Analysis/required_documents.md`
+- `Analysis/eligibility_assessment.md`
+- `Analysis/compliance_checklist.md`
+- `Analysis/human_review_todo.md`
+- `Drafts/` documents
+- `Budgets/` workbooks when required
+- `Compliance/final_submission_checklist.md`
