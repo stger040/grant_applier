@@ -1,0 +1,17 @@
+# Office temp/lock files
+~$*
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
