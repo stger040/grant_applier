@@ -1,7 +1,7 @@
-# Compliance Checklist (Initial Skeleton)
+# Compliance Checklist
 
-- [ ] [TODO] Confirm registration requirements (SAM/UEI/Grants.gov/agency portal).
-- [ ] [TODO] Confirm all mandatory forms and attachments.
-- [ ] [TODO] Confirm page limits and formatting constraints.
-- [ ] [TODO] Confirm budget rules (allowable costs, indirect limits, match).
-- [ ] [TODO] Confirm submission deadline and time zone.
+- [ ] Confirm every required document has final content and source citation.
+- [ ] Confirm page limits and formatting requirements from official guidance.
+- [ ] Confirm budget and indirect cost rules from official guidance.
+- [ ] Confirm eligibility and submission mechanism.
+- [ ] Confirm all required federal forms and certifications.

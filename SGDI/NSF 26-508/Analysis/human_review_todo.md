@@ -1,13 +1,11 @@
 # Human Review TODO
 
-- [ ] Confirm official funder NOFO/solicitation source URL and archived copy.
-- [ ] Confirm deadline, award ceiling, and project period from official source.
-- [ ] Confirm eligibility and applicant type requirements.
-- [ ] Confirm cost share/match requirement and indirect cost restrictions.
-- [ ] Confirm required forms, attachments, and submission portal rules.
-- [ ] Confirm page limits and formatting requirements for every narrative.
+- [ ] Confirm authoritative NOFO and policy URLs.
+- [ ] Confirm exact due date and submission time zone.
+- [ ] Confirm applicant eligibility and partnering structure.
+- [ ] Confirm indirect cost rate and budget rules.
+- [ ] Confirm all required forms and attachments are complete.
 
-## Flags
+## Deadline Signals
 
-- Local full NOFO appears missing: `No`
-- Official funder web source verified: `False`
+- [CONFIRM] Deadline not yet extracted from authoritative source.

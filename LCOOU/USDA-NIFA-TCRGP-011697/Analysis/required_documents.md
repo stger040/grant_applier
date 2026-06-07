@@ -1,16 +1,22 @@
-# Required Documents (Initial Skeleton)
+# Required Documents
 
-Status: Not yet complete. Official funder requirements must be confirmed from authoritative sources.
+Status: `draft_not_submission_ready`
 
-## Source Validation Status
+## Required Components
 
-- Local Grants.gov notice found: `True`
-- Full local NOFO/solicitation detected: `False`
-- Official funder web page verified: `False`
+- `Project Summary` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
+- `Project Narrative` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
+- `Management Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
+- `Evaluation Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
+- `Budget Justification` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
+- `Data Management Plan (if required)` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697
 
-## Required Documents
+## Signals From Local Sources
 
-- [TODO] Extract required narrative sections from official NOFO/solicitation.
-- [TODO] Extract page limits and formatting rules with source citations.
-- [TODO] Extract required forms, attachments, and certifications.
-- [TODO] Add explicit source URL/file citation for every major requirement.
+### Page Limits
+
+- [CONFIRM] Page limits not yet extracted from authoritative source.
+
+### Formatting Signals
+
+- [CONFIRM] Formatting requirements not yet extracted from authoritative source.

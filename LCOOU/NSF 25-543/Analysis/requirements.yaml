@@ -1,0 +1,74 @@
+source_confidence:
+  official_source_verified: false
+  local_requirement_doc_found: false
+required_documents:
+  -
+    name: "Project Summary"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Project Description"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "References Cited"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Data Management and Sharing Plan"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Facilities, Equipment, and Other Resources"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Budget Justification"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Biographical Sketches"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Current and Pending (Other) Support"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Project Personnel and Partner Organizations"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+  -
+    name: "Letters of Collaboration"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+page_limit_signals:
+  - "[CONFIRM] Page limits not yet extracted from authoritative source."
+deadline_signals:
+  - "[CONFIRM] Deadline not yet extracted from authoritative source."
+budget_rules:
+  -
+    rule: "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share."
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+eligibility_rules:
+  -
+    rule: "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide."
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+review_criteria:
+  -
+    criterion: "[TODO] Extract official review criteria text and scoring structure."
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+formatting_rules:
+  -
+    rule: "[CONFIRM] Formatting requirements not yet extracted from authoritative source."
+    source: "local_source_text"

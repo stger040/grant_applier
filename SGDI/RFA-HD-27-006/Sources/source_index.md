@@ -5,14 +5,11 @@
 - `RFA-HD-27-006.docx`
 - `Search Results Detail _ Grants.gov.pdf`
 
-## Official Source Discovery Status
+## Official and Candidate Sources
 
-- Local Grants.gov detail found: `True`
-- Full NOFO/solicitation found locally: `True`
-- Official funder page verified online: `False`
+- [Grants.gov opportunity search for RFA-HD-27-006](https://www.grants.gov/search-results-detail/RFA-HD-27-006) (type: `grants_gov_listing_candidate`, verified: `False`)
 
-## Required Next Steps
+## Research Notes
 
-1. [TODO] Locate official funder NOFO/solicitation page.
-2. [TODO] Add official source URLs and retrieval dates.
-3. [TODO] Link each major requirement to an authoritative source.
+- Candidate links must be reviewed by a human before submission use.
+- Use official funder and policy sources as the authoritative requirement basis.

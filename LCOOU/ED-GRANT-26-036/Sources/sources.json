@@ -1,10 +1,29 @@
 [
   {
+    "title": "Grants.gov opportunity search for ED-GRANT-26-036",
+    "url": "https://www.grants.gov/search-results-detail/ED-GRANT-26-036",
+    "local_path": null,
+    "source_type": "grants_gov_listing_candidate",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
     "title": "Search Results Detail _ Grants.gov.pdf",
     "url": null,
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "Potential official listing on ed.gov",
+    "url": "https://duckduckgo.com/?q=site%3Aed.gov+%22ED-GRANT-26-036%22",
+    "local_path": null,
+    "source_type": "official_search_query",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Search query URL to locate authoritative funder source."
   }
 ]

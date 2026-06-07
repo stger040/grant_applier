@@ -60,6 +60,8 @@ def analyze_opportunity(opportunity: Opportunity, overwrite: bool = False) -> di
         signals=signals,
         overwrite=overwrite,
     )
+    profile_json_path = opportunity.path / "Analysis" / "opportunity_profile.json"
+    write_if_allowed(profile_json_path, json.dumps(profile, indent=2), overwrite=overwrite)
     return profile
 
 

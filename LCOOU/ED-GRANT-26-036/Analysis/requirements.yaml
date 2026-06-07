@@ -1,0 +1,54 @@
+source_confidence:
+  official_source_verified: false
+  local_requirement_doc_found: false
+required_documents:
+  -
+    name: "Project Abstract"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+  -
+    name: "Project Narrative aligned to selection criteria"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+  -
+    name: "Management Plan"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+  -
+    name: "Evaluation Plan"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+  -
+    name: "Budget Narrative"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+  -
+    name: "GEPA statement and assurances"
+    required: true
+    status: "inferred_template_until_officially_confirmed"
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+page_limit_signals:
+  - "[CONFIRM] Page limits not yet extracted from authoritative source."
+deadline_signals:
+  - "[CONFIRM] Deadline not yet extracted from authoritative source."
+budget_rules:
+  -
+    rule: "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share."
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+eligibility_rules:
+  -
+    rule: "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide."
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+review_criteria:
+  -
+    criterion: "[TODO] Extract official review criteria text and scoring structure."
+    source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+formatting_rules:
+  -
+    rule: "[CONFIRM] Formatting requirements not yet extracted from authoritative source."
+    source: "local_source_text"

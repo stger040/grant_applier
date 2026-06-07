@@ -1,5 +1,3 @@
-# Review Criteria (Initial Skeleton)
+# Review Criteria
 
-- [TODO] Extract and list official merit/review criteria with source citations.
-- [TODO] Document scoring structure, if published.
-- [TODO] Note any threshold requirements, priorities, or tie-breakers.
+- [TODO] Extract official review criteria text and scoring structure. (source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212)

@@ -1,0 +1,35 @@
+{
+  "applicant_folder": "SGDI",
+  "opportunity_folder": "NSF 26-508",
+  "likely_applicant": "St Germaine Data Innovations (SGDI)",
+  "opportunity_number": "NSF 26-508",
+  "opportunity_title": "[CONFIRM]",
+  "funder": "National Science Foundation",
+  "submission_system": "Research.gov + Grants.gov",
+  "deadline": "[CONFIRM]",
+  "award_ceiling": "[CONFIRM]",
+  "project_period": "[CONFIRM]",
+  "eligibility": {
+    "sgdi_eligible": "[CONFIRM]",
+    "notes": [
+      "[TODO] Verify applicant eligibility from official funder guidance."
+    ]
+  },
+  "cost_share_required": "[CONFIRM]",
+  "indirect_cost_rules": "[CONFIRM]",
+  "source_status": {
+    "local_grants_gov_notice_found": false,
+    "full_nofo_found": true,
+    "official_funder_page_found": false
+  },
+  "known_local_source_documents": [
+    "Drafts/01_project_summary.md",
+    "Drafts/02_project_description.md",
+    "Drafts/03_budget_justification.md",
+    "Drafts/04_data_management_and_sharing_plan.md",
+    "Drafts/05_facilities_equipment_and_other_resources.md",
+    "Drafts/06_references_cited.md",
+    "NSF 26-508_ TechAccess_ AI-Ready America _ NSF - U.S. National Science Foundation.pdf"
+  ],
+  "human_review_required": true
+}

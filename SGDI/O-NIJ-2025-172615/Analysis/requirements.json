@@ -1,0 +1,74 @@
+{
+  "source_confidence": {
+    "official_source_verified": false,
+    "local_requirement_doc_found": false
+  },
+  "required_documents": [
+    {
+      "name": "Proposal Abstract",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    },
+    {
+      "name": "Program Narrative",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    },
+    {
+      "name": "Goals, Objectives, and Deliverables",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    },
+    {
+      "name": "Capabilities and Competencies",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    },
+    {
+      "name": "Plan for Collecting Data",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    },
+    {
+      "name": "Budget Detail Worksheet and Narrative",
+      "required": true,
+      "status": "inferred_template_until_officially_confirmed",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    }
+  ],
+  "page_limit_signals": [
+    "[CONFIRM] Page limits not yet extracted from authoritative source."
+  ],
+  "deadline_signals": [
+    "[CONFIRM] Deadline not yet extracted from authoritative source."
+  ],
+  "budget_rules": [
+    {
+      "rule": "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share.",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    }
+  ],
+  "eligibility_rules": [
+    {
+      "rule": "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide.",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    }
+  ],
+  "review_criteria": [
+    {
+      "criterion": "[TODO] Extract official review criteria text and scoring structure.",
+      "source": "https://www.grants.gov/search-results-detail/O-NIJ-2025-172615"
+    }
+  ],
+  "formatting_rules": [
+    {
+      "rule": "[CONFIRM] Formatting requirements not yet extracted from authoritative source.",
+      "source": "local_source_text"
+    }
+  ]
+}

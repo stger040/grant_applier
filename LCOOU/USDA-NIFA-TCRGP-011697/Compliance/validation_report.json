@@ -1,0 +1,27 @@
+{
+  "status": "draft_not_submission_ready",
+  "opportunity": "LCOOU/USDA-NIFA-TCRGP-011697",
+  "funder": "USDA NIFA",
+  "missing_items": [],
+  "placeholders_remaining": [
+    "Analysis/required_documents.md: [CONFIRM]",
+    "Analysis/required_documents.md: [CONFIRM]",
+    "Analysis/human_review_todo.md: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [TODO]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]"
+  ],
+  "page_limit_warnings": [
+    "[CONFIRM] Page limit validation requires official source extraction."
+  ],
+  "source_citation_warnings": [
+    "No verified official funder page in Sources/sources.json"
+  ],
+  "eligibility_warnings": [
+    "[CONFIRM] Eligibility must be confirmed from official NOFO and policy guidance."
+  ]
+}

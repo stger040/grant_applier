@@ -1,10 +1,38 @@
 [
   {
+    "title": "Grants.gov opportunity search for NSF 25-543",
+    "url": "https://www.grants.gov/search-results-detail/NSF+25-543",
+    "local_path": null,
+    "source_type": "grants_gov_listing_candidate",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
     "title": "NSF 25-543_ Computer and Information Science and Engineering _ Future Computing Research (Future CoRe) _ NSF - U.S. National Science Foundation.pdf",
     "url": null,
     "local_path": "NSF 25-543_ Computer and Information Science and Engineering _ Future Computing Research (Future CoRe) _ NSF - U.S. National Science Foundation.pdf",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "Potential official listing on new.nsf.gov",
+    "url": "https://duckduckgo.com/?q=site%3Anew.nsf.gov+%22NSF+25-543%22",
+    "local_path": null,
+    "source_type": "official_search_query",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Search query URL to locate authoritative funder source."
+  },
+  {
+    "title": "Potential official listing on nsf.gov",
+    "url": "https://duckduckgo.com/?q=site%3Ansf.gov+%22NSF+25-543%22",
+    "local_path": null,
+    "source_type": "official_search_query",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Search query URL to locate authoritative funder source."
   }
 ]

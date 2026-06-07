@@ -1,10 +1,92 @@
 [
   {
+    "title": "Grants.gov opportunity search for NSF 26-508",
+    "url": "https://www.grants.gov/search-results-detail/NSF+26-508",
+    "local_path": null,
+    "source_type": "grants_gov_listing_candidate",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
+    "title": "01_project_summary.md",
+    "url": null,
+    "local_path": "Drafts/01_project_summary.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "02_project_description.md",
+    "url": null,
+    "local_path": "Drafts/02_project_description.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "03_budget_justification.md",
+    "url": null,
+    "local_path": "Drafts/03_budget_justification.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "04_data_management_and_sharing_plan.md",
+    "url": null,
+    "local_path": "Drafts/04_data_management_and_sharing_plan.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "05_facilities_equipment_and_other_resources.md",
+    "url": null,
+    "local_path": "Drafts/05_facilities_equipment_and_other_resources.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "06_references_cited.md",
+    "url": null,
+    "local_path": "Drafts/06_references_cited.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-07",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
     "title": "NSF 26-508_ TechAccess_ AI-Ready America _ NSF - U.S. National Science Foundation.pdf",
     "url": null,
     "local_path": "NSF 26-508_ TechAccess_ AI-Ready America _ NSF - U.S. National Science Foundation.pdf",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "Potential official listing on new.nsf.gov",
+    "url": "https://duckduckgo.com/?q=site%3Anew.nsf.gov+%22NSF+26-508%22",
+    "local_path": null,
+    "source_type": "official_search_query",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Search query URL to locate authoritative funder source."
+  },
+  {
+    "title": "Potential official listing on nsf.gov",
+    "url": "https://duckduckgo.com/?q=site%3Ansf.gov+%22NSF+26-508%22",
+    "local_path": null,
+    "source_type": "official_search_query",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Search query URL to locate authoritative funder source."
   }
 ]

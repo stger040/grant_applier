@@ -1,10 +1,20 @@
 [
   {
+    "title": "Grants.gov opportunity search for PDS-UAE-01-FY2026",
+    "url": "https://www.grants.gov/search-results-detail/PDS-UAE-01-FY2026",
+    "local_path": null,
+    "source_type": "grants_gov_listing_candidate",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
     "title": "Search Results Detail _ Grants.gov.pdf",
     "url": null,
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
   }
 ]

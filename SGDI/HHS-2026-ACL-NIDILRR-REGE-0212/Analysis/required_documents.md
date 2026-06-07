@@ -1,16 +1,23 @@
-# Required Documents (Initial Skeleton)
+# Required Documents
 
-Status: Not yet complete. Official funder requirements must be confirmed from authoritative sources.
+Status: `draft_not_submission_ready`
 
-## Source Validation Status
+## Required Components
 
-- Local Grants.gov notice found: `True`
-- Full local NOFO/solicitation detected: `False`
-- Official funder web page verified: `False`
+- `Project Abstract` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Project Narrative` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Work Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Evaluation Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Organizational Capacity` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Budget Narrative` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
+- `Required federal forms and assurances` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212
 
-## Required Documents
+## Signals From Local Sources
 
-- [TODO] Extract required narrative sections from official NOFO/solicitation.
-- [TODO] Extract page limits and formatting rules with source citations.
-- [TODO] Extract required forms, attachments, and certifications.
-- [TODO] Add explicit source URL/file citation for every major requirement.
+### Page Limits
+
+- [CONFIRM] Page limits not yet extracted from authoritative source.
+
+### Formatting Signals
+
+- [CONFIRM] Formatting requirements not yet extracted from authoritative source.

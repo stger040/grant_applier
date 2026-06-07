@@ -16,7 +16,7 @@ cost_share_required: "[CONFIRM]"
 indirect_cost_rules: "[CONFIRM]"
 source_status:
   local_grants_gov_notice_found: true
-  full_nofo_found: false
+  full_nofo_found: true
   official_funder_page_found: false
 known_local_source_documents:
   - "Search Results Detail _ Grants.gov.pdf"

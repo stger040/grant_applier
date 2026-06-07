@@ -19,6 +19,12 @@
 - `25-544/NSF25-544 Project Narrative.docx`
 - `25-544/NSF25-544 Project Narrative.pdf`
 - `25-544/TBlair Matheson biosketch.docx`
+- `Drafts/01_project_summary.md`
+- `Drafts/02_project_description.md`
+- `Drafts/03_budget_justification.md`
+- `Drafts/04_data_management_and_sharing_plan.md`
+- `Drafts/05_facilities_equipment_and_other_resources.md`
+- `Drafts/06_references_cited.md`
 - `Drafts/AAIP Budget Justification.docx`
 - `Drafts/AAIP_IDC_CategoryII_Budget.xlsx`
 - `Drafts/Data Management and Sharing Plan.docx`
@@ -32,14 +38,13 @@
 - `Proposal Requiredment Cat II Guide.docx`
 - `Required NSF 26-509 Proposal Documents.docx`
 
-## Official Source Discovery Status
+## Official and Candidate Sources
 
-- Local Grants.gov detail found: `False`
-- Full NOFO/solicitation found locally: `True`
-- Official funder page verified online: `False`
+- [Potential official listing on new.nsf.gov](https://duckduckgo.com/?q=site%3Anew.nsf.gov+%22NSF+26-509%22) (type: `official_search_query`, verified: `False`)
+- [Potential official listing on nsf.gov](https://duckduckgo.com/?q=site%3Ansf.gov+%22NSF+26-509%22) (type: `official_search_query`, verified: `False`)
+- [Grants.gov opportunity search for NSF 26-509](https://www.grants.gov/search-results-detail/NSF+26-509) (type: `grants_gov_listing_candidate`, verified: `False`)
 
-## Required Next Steps
+## Research Notes
 
-1. [TODO] Locate official funder NOFO/solicitation page.
-2. [TODO] Add official source URLs and retrieval dates.
-3. [TODO] Link each major requirement to an authoritative source.
+- Candidate links must be reviewed by a human before submission use.
+- Use official funder and policy sources as the authoritative requirement basis.

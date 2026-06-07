@@ -1,11 +1,21 @@
 [
   {
+    "title": "Grants.gov opportunity search for RFA-HD-27-006",
+    "url": "https://www.grants.gov/search-results-detail/RFA-HD-27-006",
+    "local_path": null,
+    "source_type": "grants_gov_listing_candidate",
+    "retrieved_date": "2026-06-07",
+    "verified": false,
+    "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
     "title": "RFA-HD-27-006.docx",
     "url": null,
     "local_path": "RFA-HD-27-006.docx",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
   },
   {
     "title": "Search Results Detail _ Grants.gov.pdf",
@@ -13,6 +23,7 @@
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
     "retrieved_date": "2026-06-07",
-    "notes": "Local folder source. Official source verification still required."
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
   }
 ]

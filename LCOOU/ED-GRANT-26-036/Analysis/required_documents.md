@@ -1,16 +1,22 @@
-# Required Documents (Initial Skeleton)
+# Required Documents
 
-Status: Not yet complete. Official funder requirements must be confirmed from authoritative sources.
+Status: `draft_not_submission_ready`
 
-## Source Validation Status
+## Required Components
 
-- Local Grants.gov notice found: `True`
-- Full local NOFO/solicitation detected: `False`
-- Official funder web page verified: `False`
+- `Project Abstract` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
+- `Project Narrative aligned to selection criteria` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
+- `Management Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
+- `Evaluation Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
+- `Budget Narrative` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
+- `GEPA statement and assurances` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/ED-GRANT-26-036
 
-## Required Documents
+## Signals From Local Sources
 
-- [TODO] Extract required narrative sections from official NOFO/solicitation.
-- [TODO] Extract page limits and formatting rules with source citations.
-- [TODO] Extract required forms, attachments, and certifications.
-- [TODO] Add explicit source URL/file citation for every major requirement.
+### Page Limits
+
+- [CONFIRM] Page limits not yet extracted from authoritative source.
+
+### Formatting Signals
+
+- [CONFIRM] Formatting requirements not yet extracted from authoritative source.

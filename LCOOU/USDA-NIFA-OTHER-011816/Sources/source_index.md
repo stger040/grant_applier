@@ -4,14 +4,12 @@
 
 - `Search Results Detail _ Grants.gov.pdf`
 
-## Official Source Discovery Status
+## Official and Candidate Sources
 
-- Local Grants.gov detail found: `True`
-- Full NOFO/solicitation found locally: `False`
-- Official funder page verified online: `False`
+- [Potential official listing on nifa.usda.gov](https://duckduckgo.com/?q=site%3Anifa.usda.gov+%22USDA-NIFA-OTHER-011816%22) (type: `official_search_query`, verified: `False`)
+- [Grants.gov opportunity search for USDA-NIFA-OTHER-011816](https://www.grants.gov/search-results-detail/USDA-NIFA-OTHER-011816) (type: `grants_gov_listing_candidate`, verified: `False`)
 
-## Required Next Steps
+## Research Notes
 
-1. [TODO] Locate official funder NOFO/solicitation page.
-2. [TODO] Add official source URLs and retrieval dates.
-3. [TODO] Link each major requirement to an authoritative source.
+- Candidate links must be reviewed by a human before submission use.
+- Use official funder and policy sources as the authoritative requirement basis.
