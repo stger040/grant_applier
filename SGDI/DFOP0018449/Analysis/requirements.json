@@ -1,0 +1,87 @@
+{
+  "source_confidence": {
+    "official_source_verified": false,
+    "local_requirement_doc_found": false,
+    "local_official_source_proxy_found": false
+  },
+  "required_documents": [
+    {
+      "name": "Proposal Summary",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    },
+    {
+      "name": "Statement of Need",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    },
+    {
+      "name": "Project Activities",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    },
+    {
+      "name": "Monitoring and Evaluation Plan",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    },
+    {
+      "name": "Sustainability Plan",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    },
+    {
+      "name": "Budget Narrative",
+      "required": true,
+      "status": "not_started_blocked_on_admin_data",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449",
+      "blocker_reason": "final budget values; indirect cost confirmation",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    }
+  ],
+  "page_limit_signals": [
+    "[CONFIRM] Page limits not yet extracted from authoritative source."
+  ],
+  "deadline_signals": [
+    "[CONFIRM] Deadline not yet extracted from authoritative source."
+  ],
+  "budget_rules": [
+    {
+      "rule": "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share.",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    }
+  ],
+  "eligibility_rules": [
+    {
+      "rule": "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide.",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    }
+  ],
+  "review_criteria": [
+    {
+      "criterion": "[TODO] Extract official review criteria text and scoring structure.",
+      "source": "https://www.grants.gov/search-results-detail/DFOP0018449"
+    }
+  ],
+  "formatting_rules": [
+    {
+      "rule": "[CONFIRM] Formatting requirements not yet extracted from authoritative source.",
+      "source": "local_source_text"
+    }
+  ],
+  "document_readiness_summary": {
+    "total_required_documents": 4,
+    "by_status": {
+      "not_started_blocked_on_official_source": 2,
+      "drafted": 1,
+      "not_started_blocked_on_admin_data": 1
+    },
+    "drafted_or_ready_ratio": 0.25,
+    "blocked_document_count": 3
+  }
+}

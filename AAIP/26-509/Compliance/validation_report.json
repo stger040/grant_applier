@@ -1,0 +1,35 @@
+{
+  "status": "draft_not_submission_ready",
+  "opportunity": "AAIP/26-509",
+  "funder": "National Science Foundation",
+  "completion_score": 64.6,
+  "missing_items": [],
+  "placeholders_remaining": [
+    "Analysis/required_documents.md: [TODO]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [TODO]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]"
+  ],
+  "page_limit_warnings": [
+    "[CONFIRM] Page limit validation requires official source extraction."
+  ],
+  "source_citation_warnings": [
+    "No verified official funder page in Sources/sources.json"
+  ],
+  "readiness_warnings": [
+    "Budget Forms: drafted_but_blocked_on_admin_data",
+    "Budget Justification: drafted_but_blocked_on_admin_data",
+    "Biographical Sketches: drafted_but_blocked_on_admin_data",
+    "Current and Pending (Other) Support: not_started_blocked_on_admin_data",
+    "Collaborators and Other Affiliations: drafted_but_blocked_on_admin_data",
+    "Detailed Cost Estimate Supplement: drafted_but_blocked_on_admin_data",
+    "Project Personnel and Partner Organizations: not_started_blocked_on_admin_data"
+  ],
+  "eligibility_warnings": [
+    "[CONFIRM] Eligibility must be confirmed from official NOFO and policy guidance."
+  ]
+}

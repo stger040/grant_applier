@@ -1,0 +1,255 @@
+{
+  "opportunity": "LCOOU/NSF 25-543",
+  "funder": "National Science Foundation",
+  "source_verified": true,
+  "admin_signal_inventory": {
+    "pi/co-pi/senior roster": false,
+    "biosketch data": false,
+    "current/pending support records": false,
+    "coa records": false,
+    "final budget rates": false
+  },
+  "summary": {
+    "total_required_documents": 12,
+    "by_status": {
+      "ready_for_realistic_draft_generation": 3,
+      "drafted": 2,
+      "drafted_but_blocked_on_admin_data": 1,
+      "not_started_blocked_on_admin_data": 6
+    },
+    "drafted_or_ready_ratio": 0.167,
+    "blocked_document_count": 7
+  },
+  "documents": [
+    {
+      "name": "Project Summary",
+      "page_limit": "1 page",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "ready_for_realistic_draft_generation",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Generate narrative draft using known facts and explicit placeholders."
+    },
+    {
+      "name": "Project Description",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "ready_for_realistic_draft_generation",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Generate narrative draft using known facts and explicit placeholders."
+    },
+    {
+      "name": "References Cited",
+      "page_limit": "No page limit",
+      "artifact_found": true,
+      "artifact_count": 1,
+      "expected_artifacts": 1,
+      "coverage_complete": true,
+      "coverage_note": null,
+      "status": "drafted",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Budget Forms",
+      "page_limit": "N/A",
+      "artifact_found": true,
+      "artifact_count": 3,
+      "expected_artifacts": 1,
+      "coverage_complete": true,
+      "coverage_note": null,
+      "status": "drafted_but_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "Draft exists but person-specific/admin data is incomplete.",
+      "recommended_next_step": "Collect missing admin/personnel data before finalizing."
+    },
+    {
+      "name": "Budget Justification",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "final salary/fringe/indirect values; subaward detail finalization",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Biographical Sketches",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 2,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 2 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "individual PI/co-PI/senior personnel data; SciENcv export",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Current and Pending (Other) Support",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 2,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 2 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "person-specific support records for each senior person",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Facilities, Equipment, and Other Resources",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": true,
+      "artifact_count": 1,
+      "expected_artifacts": 1,
+      "coverage_complete": true,
+      "coverage_note": null,
+      "status": "drafted",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Data Management and Sharing Plan",
+      "page_limit": "2 pages (NSF typical; [CONFIRM])",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "ready_for_realistic_draft_generation",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Generate narrative draft using known facts and explicit placeholders."
+    },
+    {
+      "name": "Collaborators and Other Affiliations",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 2,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 2 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "COA details for each senior person",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Detailed Cost Estimate Supplement",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "category-level cost basis finalization",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Project Personnel and Partner Organizations",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "final named personnel and partner roster",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    }
+  ],
+  "benchmark_reference": [
+    {
+      "name": "Project Summary",
+      "status_example": "Drafted",
+      "notes": "1 page"
+    },
+    {
+      "name": "Project Description",
+      "status_example": "Drafted",
+      "notes": "20 pages max for Category II"
+    },
+    {
+      "name": "References Cited",
+      "status_example": "Drafted",
+      "notes": "No page limit"
+    },
+    {
+      "name": "Budget Forms",
+      "status_example": "Draft spreadsheets created; final numbers need confirmation",
+      "notes": "AAIP lead + SGDI subaward"
+    },
+    {
+      "name": "Budget Justification",
+      "status_example": "AAIP drafted; SGDI subaward justification still needed",
+      "notes": "Narrative justification"
+    },
+    {
+      "name": "Biographical Sketches",
+      "status_example": "Still needed",
+      "notes": "Likely generated via SciENcv"
+    },
+    {
+      "name": "Current and Pending (Other) Support",
+      "status_example": "Still needed",
+      "notes": "Person-specific"
+    },
+    {
+      "name": "Facilities, Equipment, and Other Resources",
+      "status_example": "Drafted",
+      "notes": ""
+    },
+    {
+      "name": "Data Management and Sharing Plan",
+      "status_example": "Drafted",
+      "notes": "2 pages max"
+    },
+    {
+      "name": "Collaborators and Other Affiliations",
+      "status_example": "Still needed",
+      "notes": "NSF single-copy form; person-specific"
+    },
+    {
+      "name": "Detailed Cost Estimate Supplement",
+      "status_example": "Drafted",
+      "notes": "Required for Category II"
+    },
+    {
+      "name": "Project Personnel and Partner Organizations",
+      "status_example": "Still needed",
+      "notes": "Required by NSF 26-509"
+    }
+  ]
+}

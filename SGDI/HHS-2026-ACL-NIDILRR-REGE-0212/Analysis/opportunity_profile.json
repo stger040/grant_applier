@@ -1,0 +1,35 @@
+{
+  "applicant_folder": "SGDI",
+  "opportunity_folder": "HHS-2026-ACL-NIDILRR-REGE-0212",
+  "likely_applicant": "St Germaine Data Innovations (SGDI)",
+  "opportunity_number": "HHS-2026-ACL-NIDILRR-REGE-0212",
+  "opportunity_title": "[CONFIRM]",
+  "funder": "HHS / ACL / NIDILRR",
+  "submission_system": "Grants.gov",
+  "deadline": "[CONFIRM]",
+  "award_ceiling": "[CONFIRM]",
+  "project_period": "[CONFIRM]",
+  "eligibility": {
+    "sgdi_eligible": "[CONFIRM]",
+    "notes": [
+      "[TODO] Verify applicant eligibility from official funder guidance."
+    ]
+  },
+  "cost_share_required": "[CONFIRM]",
+  "indirect_cost_rules": "[CONFIRM]",
+  "source_status": {
+    "local_grants_gov_notice_found": true,
+    "full_nofo_found": false,
+    "official_funder_page_found": false
+  },
+  "known_local_source_documents": [
+    "Drafts/01_project_abstract.md",
+    "Drafts/02_project_narrative.md",
+    "Drafts/03_work_plan.md",
+    "Drafts/04_evaluation_plan.md",
+    "Drafts/05_organizational_capacity.md",
+    "Drafts/06_budget_narrative.md",
+    "Search Results Detail _ Grants.gov.pdf"
+  ],
+  "human_review_required": true
+}

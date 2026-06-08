@@ -1,0 +1,39 @@
+{
+  "status": "draft_not_submission_ready",
+  "opportunity": "SGDI/NSF 26-508",
+  "funder": "National Science Foundation",
+  "completion_score": 61.4,
+  "missing_items": [],
+  "placeholders_remaining": [
+    "Analysis/required_documents.md: [TODO]",
+    "Analysis/required_documents.md: [CONFIRM]",
+    "Analysis/required_documents.md: [CONFIRM]",
+    "Analysis/human_review_todo.md: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [TODO]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]",
+    "Analysis/opportunity_profile.yaml: [CONFIRM]"
+  ],
+  "page_limit_warnings": [
+    "[CONFIRM] Page limit validation requires official source extraction."
+  ],
+  "source_citation_warnings": [
+    "No verified official funder page in Sources/sources.json"
+  ],
+  "readiness_warnings": [
+    "Budget Forms: drafted_but_blocked_on_admin_data",
+    "Budget Justification: not_started_blocked_on_admin_data",
+    "Biographical Sketches: not_started_blocked_on_admin_data",
+    "Current and Pending (Other) Support: not_started_blocked_on_admin_data",
+    "Collaborators and Other Affiliations: not_started_blocked_on_admin_data",
+    "Detailed Cost Estimate Supplement: not_started_blocked_on_admin_data",
+    "Project Personnel and Partner Organizations: not_started_blocked_on_admin_data"
+  ],
+  "eligibility_warnings": [
+    "[CONFIRM] Eligibility must be confirmed from official NOFO and policy guidance."
+  ]
+}

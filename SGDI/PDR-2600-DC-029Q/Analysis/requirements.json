@@ -1,0 +1,77 @@
+{
+  "source_confidence": {
+    "official_source_verified": false,
+    "local_requirement_doc_found": false,
+    "local_official_source_proxy_found": false
+  },
+  "required_documents": [
+    {
+      "name": "Project Abstract",
+      "required": true,
+      "status": "drafted",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q",
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Project Narrative",
+      "required": true,
+      "status": "drafted",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q",
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Budget Narrative",
+      "required": true,
+      "status": "not_started_blocked_on_admin_data",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q",
+      "blocker_reason": "final budget values; indirect cost confirmation",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Required forms and attachments",
+      "required": true,
+      "status": "inferred_template_until_readiness_analysis",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q"
+    }
+  ],
+  "page_limit_signals": [
+    "[CONFIRM] Page limits not yet extracted from authoritative source."
+  ],
+  "deadline_signals": [
+    "[CONFIRM] Deadline not yet extracted from authoritative source."
+  ],
+  "budget_rules": [
+    {
+      "rule": "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share.",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q"
+    }
+  ],
+  "eligibility_rules": [
+    {
+      "rule": "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide.",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q"
+    }
+  ],
+  "review_criteria": [
+    {
+      "criterion": "[TODO] Extract official review criteria text and scoring structure.",
+      "source": "https://www.grants.gov/search-results-detail/PDR-2600-DC-029Q"
+    }
+  ],
+  "formatting_rules": [
+    {
+      "rule": "[CONFIRM] Formatting requirements not yet extracted from authoritative source.",
+      "source": "local_source_text"
+    }
+  ],
+  "document_readiness_summary": {
+    "total_required_documents": 4,
+    "by_status": {
+      "drafted": 2,
+      "not_started_blocked_on_admin_data": 1,
+      "not_started_blocked_on_official_source": 1
+    },
+    "drafted_or_ready_ratio": 0.5,
+    "blocked_document_count": 2
+  }
+}

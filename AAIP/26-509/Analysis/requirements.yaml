@@ -1,0 +1,142 @@
+source_confidence:
+  official_source_verified: true
+  local_requirement_doc_found: true
+  local_official_source_proxy_found: true
+required_documents:
+  -
+    name: "Project Summary"
+    required: true
+    status: "drafted"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "Project Description"
+    required: true
+    status: "drafted"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "References Cited"
+    required: true
+    status: "drafted"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "Budget Forms"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "Draft exists but person-specific/admin data is incomplete."
+    recommended_next_step: "Collect missing admin/personnel data before finalizing."
+  -
+    name: "Data Management and Sharing Plan"
+    required: true
+    status: "drafted"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "Facilities, Equipment, and Other Resources"
+    required: true
+    status: "drafted"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "Budget Justification"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "AAIP and SGDI budget justification coverage is incomplete."
+    recommended_next_step: "Collect missing document coverage and regenerate this component."
+  -
+    name: "Biographical Sketches"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "Only 1 artifact(s) found; expected at least 2 for this component."
+    recommended_next_step: "Collect missing document coverage and regenerate this component."
+  -
+    name: "Current and Pending (Other) Support"
+    required: true
+    status: "not_started_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "person-specific support records for each senior person"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
+  -
+    name: "Collaborators and Other Affiliations"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "Only 1 artifact(s) found; expected at least 2 for this component."
+    recommended_next_step: "Collect missing document coverage and regenerate this component."
+  -
+    name: "Detailed Cost Estimate Supplement"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "Draft exists but person-specific/admin data is incomplete."
+    recommended_next_step: "Collect missing admin/personnel data before finalizing."
+  -
+    name: "Project Personnel and Partner Organizations"
+    required: true
+    status: "not_started_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+    blocker_reason: "final named personnel and partner roster"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
+  -
+    name: "Letters of Collaboration"
+    required: true
+    status: "inferred_template_until_readiness_analysis"
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+page_limit_signals:
+  - "supplemental policy notices modify it: per the NSF PAPPG 24-1 page, \"NSF has issued supplemental policy notices NSF 26-200 and"
+  - "ct of the proposal. Project Description \u2014 Standard limit is 15 pages (including all visual materials \u2014 charts, graphs, maps, pho"
+  - "g in the past 5 years or has current funding) is limited to 5 pages within the 15 and must use two distinct headings (Intellect"
+  - "t headings (Intellectual Merit; Broader Impacts). Exceeding 15 pages requires an advance deviation authorization. References Cit"
+  - "nd proposal certifications. Supplementary: Mentoring Plan (\u22641 page, required when funding postdoctoral scholars and/or graduat"
+  - "National Science Foundation Project Description page limit: 20 pages for Category I and Category II (10 pages for Category III)."
+  - "iption page limit: 20 pages for Category I and Category II (10 pages for Category III). For Category I/II, in addition to PAPPG"
+  - "w with its structure and page limit: Project Summary \u2013 1 page maximum. Must include an overview of the proposed activity"
+  - "d broader impacts\u301020\u2020L938-L944\u3011. Project Description \u2013 20 pages (for Category II)\u30109\u2020L674-L678\u3011. Must address all components"
+  - "ibliographic references. Biographical Sketches \u2013 Up to 2 pages each (using NSF\u2019s SciENcv format). One sketch is required f"
+  - "physical resources. Data Management and Sharing Plan \u2013 2 pages maximum\u301025\u2020L24-L30\u3011. Uploaded as a separate Supplementary D"
+  - "and share data/products. Postdoctoral Mentoring Plan \u2013 1 page (if postdocs are supported). Describe mentoring/training pl"
+deadline_signals:
+  - "is PAPPG NSF 24-1 (effective for all proposals submitted or due on/after May 20, 2024), as modified by supplemental policy notices NSF 26-200 (ef"
+  - "haring Plan. For NSF 26-509 IDSS, Category II proposals are due July 28, 2026 (fourth Tuesday in July annually thereafter), are funded as"
+  - "ct as of mid-2026 and applies to all proposals submitted or due on or after May 20, 2024. Two supplemental policy notices modify it: per the NSF PAP"
+  - "haring is prohibited. NSF - National Science Foundation + 2 Deadline: Category II full proposals are due July 28, 2026, and the fourth Tuesday in July annually thereafter. (Categ"
+  - "sday in July annually thereafter. (Categories I and III are due July 27, 2027 and the fourth Tuesday in July annually thereafter.) Due by"
+  - "Supplements 26-200 and 26-202; because the IDSS Category II deadline (July 28, 2026) falls after the April 27, 2026 DMSP webform cutover, build the DMSP in the Research.gov we"
+budget_rules:
+  -
+    rule: "[CONFIRM] Verify allowable costs, indirect cost treatment, and match/cost share."
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+eligibility_rules:
+  -
+    rule: "[CONFIRM] Verify applicant eligibility from official NOFO and policy guide."
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+review_criteria:
+  -
+    criterion: "[TODO] Extract official review criteria text and scoring structure."
+    source: "https://www.grants.gov/search-results-detail/NSF+26-509"
+formatting_rules:
+  -
+    rule: "than six lines of text within a vertical space of one inch. Margins: At least one inch in all directions; no proposer-supplied"
+    source: "local_source_text"
+  -
+    rule: "in all directions; no proposer-supplied information in the margins. Paper size: No larger than standard letter (8.5 \u00d7 11 or 11"
+    source: "local_source_text"
+  -
+    rule: "out review. All documents must follow NSF formatting rules (font, margins, etc.) from the PAPPG\u301020\u2020L938-L944\u3011\u30109\u2020L674-L678\u3011."
+    source: "local_source_text"
+  -
+    rule: "view. All documents must follow NSF formatting rules (font, margins, etc.) from the PAPPG\u301020\u2020L938-L944\u3011\u30109\u2020L674-L678\u3011. Sour"
+    source: "local_source_text"
+document_readiness_summary:
+  total_required_documents: 12
+  by_status:
+    drafted: 5
+    drafted_but_blocked_on_admin_data: 5
+    not_started_blocked_on_admin_data: 2
+  drafted_or_ready_ratio: 0.417
+  blocked_document_count: 7
