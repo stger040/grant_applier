@@ -3,6 +3,9 @@
 Opportunity Number: `RFA-HD-27-006`
 Opportunity Title: `[CONFIRM]`
 Applicant: `St Germaine Data Innovations (SGDI)`
+Draft mode: `standard_realistic_draft`
+Readiness status: `[CONFIRM]`
+Blocking issue: `None`
 
 ## Draft Narrative
 
@@ -18,9 +21,11 @@ This draft project design and work plan is intended for grant-writer refinement 
 - [CONFIRM] Opportunity-specific priorities and scoring criteria language.
 - [CONFIRM] Named project personnel, partner organizations, and authorized official details.
 - [CONFIRM] Final budget values, fringe assumptions, indirect cost treatment, and match rules.
+- [CONFIRM] Readiness next step: [TODO] Determine next step.
 
 ## Source Alignment Notes
 
 - This section aligns to required-component signals including: `Project Abstract, Project Narrative, Budget Narrative, Required forms and attachments`.
+- Primary source reference for this draft: `https://www.grants.gov/search-results-detail/RFA-HD-27-006`.
 - Replace placeholders after validating official source requirements in `Sources/source_index.md`.
 - Do not submit until all items in `Analysis/human_review_todo.md` are resolved.

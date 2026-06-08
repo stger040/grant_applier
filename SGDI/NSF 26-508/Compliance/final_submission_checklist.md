@@ -1,6 +1,7 @@
 # Final Submission Checklist
 
 Status: `draft_not_submission_ready`
+Estimated completion score: `61.4`
 
 ## Blocking Items
 
@@ -8,6 +9,7 @@ Status: `draft_not_submission_ready`
 
 ## Placeholder Review
 
+- [ ] Resolve placeholder: Analysis/required_documents.md: [TODO]
 - [ ] Resolve placeholder: Analysis/required_documents.md: [CONFIRM]
 - [ ] Resolve placeholder: Analysis/required_documents.md: [CONFIRM]
 - [ ] Resolve placeholder: Analysis/human_review_todo.md: [CONFIRM]
@@ -23,6 +25,16 @@ Status: `draft_not_submission_ready`
 ## Source Validation
 
 - [ ] Resolve source warning: No verified official funder page in Sources/sources.json
+
+## Document Readiness Blockers
+
+- [ ] Resolve readiness blocker: Budget Forms: drafted_but_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Budget Justification: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Biographical Sketches: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Current and Pending (Other) Support: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Collaborators and Other Affiliations: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Detailed Cost Estimate Supplement: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Project Personnel and Partner Organizations: not_started_blocked_on_admin_data
 
 ## Final Human Confirmations
 

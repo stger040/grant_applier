@@ -23,6 +23,12 @@
     "official_funder_page_found": false
   },
   "known_local_source_documents": [
+    "Drafts/01_project_summary.md",
+    "Drafts/02_project_narrative.md",
+    "Drafts/03_management_plan.md",
+    "Drafts/04_evaluation_plan.md",
+    "Drafts/05_data_management_plan.md",
+    "Drafts/06_budget_justification.md",
     "Search Results Detail _ Grants.gov.pdf"
   ],
   "human_review_required": true

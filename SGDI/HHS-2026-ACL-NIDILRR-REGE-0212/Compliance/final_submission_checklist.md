@@ -1,6 +1,7 @@
 # Final Submission Checklist
 
 Status: `draft_not_submission_ready`
+Estimated completion score: `74.0`
 
 ## Blocking Items
 
@@ -8,6 +9,10 @@ Status: `draft_not_submission_ready`
 
 ## Placeholder Review
 
+- [ ] Resolve placeholder: Analysis/required_documents.md: [TODO]
+- [ ] Resolve placeholder: Analysis/required_documents.md: [TODO]
+- [ ] Resolve placeholder: Analysis/required_documents.md: [TODO]
+- [ ] Resolve placeholder: Analysis/required_documents.md: [TODO]
 - [ ] Resolve placeholder: Analysis/required_documents.md: [CONFIRM]
 - [ ] Resolve placeholder: Analysis/required_documents.md: [CONFIRM]
 - [ ] Resolve placeholder: Analysis/human_review_todo.md: [CONFIRM]
@@ -23,6 +28,11 @@ Status: `draft_not_submission_ready`
 ## Source Validation
 
 - [ ] Resolve source warning: No verified official funder page in Sources/sources.json
+
+## Document Readiness Blockers
+
+- [ ] Resolve readiness blocker: Budget Narrative: not_started_blocked_on_admin_data
+- [ ] Resolve readiness blocker: Required Federal Forms and Attachments: not_started_blocked_on_official_source
 
 ## Final Human Confirmations
 

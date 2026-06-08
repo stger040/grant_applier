@@ -2,6 +2,12 @@
 
 ## Local Sources
 
+- `Drafts/01_proposal_abstract.md`
+- `Drafts/02_program_narrative.md`
+- `Drafts/03_goals_objectives_and_deliverables.md`
+- `Drafts/04_capabilities_and_competencies.md`
+- `Drafts/05_plan_for_collecting_data.md`
+- `Drafts/06_budget_narrative.md`
 - `Search Results Detail _ Grants.gov.pdf`
 
 ## Official and Candidate Sources

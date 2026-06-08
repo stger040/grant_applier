@@ -3,6 +3,9 @@
 Opportunity Number: `NSF 26-508`
 Opportunity Title: `[CONFIRM]`
 Applicant: `St Germaine Data Innovations (SGDI)`
+Draft mode: `standard_realistic_draft`
+Readiness status: `ready_for_realistic_draft_generation`
+Blocking issue: `None`
 
 ## Draft Narrative
 
@@ -18,9 +21,11 @@ This draft project summary is intended for grant-writer refinement and final com
 - [CONFIRM] Opportunity-specific priorities and scoring criteria language.
 - [CONFIRM] Named project personnel, partner organizations, and authorized official details.
 - [CONFIRM] Final budget values, fringe assumptions, indirect cost treatment, and match rules.
+- [CONFIRM] Readiness next step: Generate narrative draft using known facts and explicit placeholders.
 
 ## Source Alignment Notes
 
-- This section aligns to required-component signals including: `Project Summary, Project Description, References Cited, Data Management and Sharing Plan, Facilities, Equipment, and Other Resources, Budget Justification`.
+- This section aligns to required-component signals including: `Project Summary, Project Description, References Cited, Budget Forms, Data Management and Sharing Plan, Facilities, Equipment, and Other Resources`.
+- Primary source reference for this draft: `https://www.grants.gov/search-results-detail/NSF+26-508`.
 - Replace placeholders after validating official source requirements in `Sources/source_index.md`.
 - Do not submit until all items in `Analysis/human_review_todo.md` are resolved.

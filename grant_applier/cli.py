@@ -86,6 +86,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="Generate draft narrative markdown files.",
     )
     configure_target_arguments(draft_parser)
+    draft_parser.add_argument(
+        "--use-llm",
+        action="store_true",
+        help="Use OpenAI API (via OPENAI_API_KEY) to improve section narratives.",
+    )
+    draft_parser.add_argument(
+        "--llm-model",
+        default="gpt-4.1-mini",
+        help="OpenAI model for draft generation when --use-llm is enabled.",
+    )
 
     budget_parser = subparsers.add_parser(
         "budget",
@@ -108,6 +118,16 @@ def build_parser() -> argparse.ArgumentParser:
         "--offline",
         action="store_true",
         help="Skip live web discovery during full pipeline.",
+    )
+    build_parser.add_argument(
+        "--use-llm",
+        action="store_true",
+        help="Use OpenAI API (via OPENAI_API_KEY) during draft generation.",
+    )
+    build_parser.add_argument(
+        "--llm-model",
+        default="gpt-4.1-mini",
+        help="OpenAI model for draft generation when --use-llm is enabled.",
     )
 
     return parser
@@ -179,7 +199,12 @@ def run_requirements(args: argparse.Namespace) -> int:
 def run_draft(args: argparse.Namespace) -> int:
     opportunities = resolve_targets(args)
     for opportunity in opportunities:
-        created = generate_drafts(opportunity=opportunity, overwrite=args.overwrite)
+        created = generate_drafts(
+            opportunity=opportunity,
+            overwrite=args.overwrite,
+            use_llm=args.use_llm,
+            llm_model=args.llm_model,
+        )
         print(f"Drafted: {opportunity.relative_id} ({len(created)} files)")
     return 0
 
@@ -208,7 +233,12 @@ def run_build(args: argparse.Namespace) -> int:
         ensure_profile(opportunity, overwrite=False)
         run_source_discovery(opportunity, overwrite=args.overwrite, online=not args.offline)
         extract_requirements(opportunity, overwrite=args.overwrite)
-        generate_drafts(opportunity, overwrite=args.overwrite)
+        generate_drafts(
+            opportunity,
+            overwrite=args.overwrite,
+            use_llm=args.use_llm,
+            llm_model=args.llm_model,
+        )
         generate_budget(opportunity, overwrite=args.overwrite)
         validate_opportunity(opportunity, overwrite=True)
         print(f"Built full package: {opportunity.relative_id}")

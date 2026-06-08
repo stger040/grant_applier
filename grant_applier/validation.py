@@ -17,6 +17,9 @@ CORE_REQUIRED_FILES = [
     "Analysis/opportunity_profile.yaml",
     "Analysis/opportunity_profile.json",
     "Analysis/required_documents.md",
+    "Analysis/requirements.json",
+    "Analysis/document_readiness.json",
+    "Analysis/document_readiness.md",
     "Analysis/eligibility_assessment.md",
     "Analysis/compliance_checklist.md",
     "Analysis/human_review_todo.md",
@@ -40,15 +43,25 @@ def validate_opportunity(opportunity: Opportunity, overwrite: bool = True) -> di
 
     placeholders = collect_placeholders(opportunity.path)
     source_warnings = source_citation_warnings(opportunity.path)
+    readiness = load_readiness(opportunity.path)
+    readiness_warnings = readiness_blocker_warnings(readiness)
+    completion_score = compute_completion_score(
+        missing_count=len(missing_files),
+        placeholder_count=len(placeholders),
+        source_warning_count=len(source_warnings),
+        readiness=readiness,
+    )
 
     report = {
         "status": "draft_not_submission_ready",
         "opportunity": opportunity.relative_id,
         "funder": profile.get("funder", "[CONFIRM]"),
+        "completion_score": completion_score,
         "missing_items": missing_files,
         "placeholders_remaining": placeholders,
         "page_limit_warnings": ["[CONFIRM] Page limit validation requires official source extraction."],
         "source_citation_warnings": source_warnings,
+        "readiness_warnings": readiness_warnings,
         "eligibility_warnings": [
             "[CONFIRM] Eligibility must be confirmed from official NOFO and policy guidance."
         ],
@@ -90,6 +103,58 @@ def source_citation_warnings(opportunity_path: Path) -> list[str]:
     return []
 
 
+def load_readiness(opportunity_path: Path) -> dict[str, Any]:
+    path = opportunity_path / "Analysis" / "document_readiness.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(payload, dict):
+            return payload
+    except json.JSONDecodeError:
+        return {}
+    return {}
+
+
+def readiness_blocker_warnings(readiness: dict[str, Any]) -> list[str]:
+    if not readiness:
+        return ["Document readiness matrix missing or unreadable."]
+    warnings: list[str] = []
+    documents = readiness.get("documents", [])
+    if not isinstance(documents, list):
+        return ["Document readiness matrix invalid format."]
+    blocking_statuses = {
+        "drafted_but_blocked_on_admin_data",
+        "not_started_blocked_on_admin_data",
+        "not_started_blocked_on_official_source",
+    }
+    for doc in documents:
+        if not isinstance(doc, dict):
+            continue
+        status = str(doc.get("status", ""))
+        if status in blocking_statuses:
+            warnings.append(f"{doc.get('name', '[CONFIRM]')}: {status}")
+    return warnings
+
+
+def compute_completion_score(
+    *,
+    missing_count: int,
+    placeholder_count: int,
+    source_warning_count: int,
+    readiness: dict[str, Any],
+) -> float:
+    score = 100.0
+    score -= missing_count * 7.5
+    score -= min(placeholder_count, 40) * 0.8
+    score -= source_warning_count * 8.0
+
+    summary = readiness.get("summary", {}) if isinstance(readiness, dict) else {}
+    blocked_docs = int(summary.get("blocked_document_count", 0) or 0)
+    score -= blocked_docs * 3.0
+    return round(max(0.0, min(100.0, score)), 2)
+
+
 def write_validation_outputs(opportunity: Opportunity, report: dict[str, Any], overwrite: bool) -> None:
     compliance_dir = opportunity.path / "Compliance"
     compliance_dir.mkdir(parents=True, exist_ok=True)
@@ -110,11 +175,13 @@ def render_final_submission_checklist(report: dict[str, Any]) -> str:
     missing = report.get("missing_items", [])
     placeholders = report.get("placeholders_remaining", [])
     source_warnings = report.get("source_citation_warnings", [])
+    readiness_warnings = report.get("readiness_warnings", [])
 
     lines = [
         "# Final Submission Checklist",
         "",
         f"Status: `{report.get('status', 'draft_not_submission_ready')}`",
+        f"Estimated completion score: `{report.get('completion_score', '[CONFIRM]')}`",
         "",
         "## Blocking Items",
         "",
@@ -138,6 +205,13 @@ def render_final_submission_checklist(report: dict[str, Any]) -> str:
             lines.append(f"- [ ] Resolve source warning: {warning}")
     else:
         lines.append("- [ ] Confirm all requirements have official source citations.")
+
+    lines.extend(["", "## Document Readiness Blockers", ""])
+    if readiness_warnings:
+        for warning in readiness_warnings:
+            lines.append(f"- [ ] Resolve readiness blocker: {warning}")
+    else:
+        lines.append("- [ ] [CONFIRM] No document-level blockers found in readiness matrix.")
 
     lines.extend(
         [

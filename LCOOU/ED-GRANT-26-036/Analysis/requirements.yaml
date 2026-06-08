@@ -1,36 +1,41 @@
 source_confidence:
   official_source_verified: false
   local_requirement_doc_found: false
+  local_official_source_proxy_found: false
 required_documents:
   -
     name: "Project Abstract"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "drafted"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+    recommended_next_step: "Perform final compliance review and page-limit check."
   -
     name: "Project Narrative aligned to selection criteria"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "drafted"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+    recommended_next_step: "Perform final compliance review and page-limit check."
   -
     name: "Management Plan"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "inferred_template_until_readiness_analysis"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
   -
     name: "Evaluation Plan"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "inferred_template_until_readiness_analysis"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
   -
     name: "Budget Narrative"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "not_started_blocked_on_admin_data"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
+    blocker_reason: "final budget values; indirect cost confirmation"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
   -
     name: "GEPA statement and assurances"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "inferred_template_until_readiness_analysis"
     source: "https://www.grants.gov/search-results-detail/ED-GRANT-26-036"
 page_limit_signals:
   - "[CONFIRM] Page limits not yet extracted from authoritative source."
@@ -52,3 +57,10 @@ formatting_rules:
   -
     rule: "[CONFIRM] Formatting requirements not yet extracted from authoritative source."
     source: "local_source_text"
+document_readiness_summary:
+  total_required_documents: 4
+  by_status:
+    drafted: 3
+    not_started_blocked_on_admin_data: 1
+  drafted_or_ready_ratio: 0.75
+  blocked_document_count: 1

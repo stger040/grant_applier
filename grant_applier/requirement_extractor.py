@@ -11,6 +11,7 @@ from .analyzer import render_yaml
 from .discovery import Opportunity, list_local_source_files
 from .document_parser import read_text_from_file
 from .profiles import ensure_profile
+from .readiness import build_document_readiness, collect_artifact_paths, write_document_readiness
 
 
 FUNDING_DOCS_BY_FUNDER: dict[str, list[str]] = {
@@ -18,11 +19,14 @@ FUNDING_DOCS_BY_FUNDER: dict[str, list[str]] = {
         "Project Summary",
         "Project Description",
         "References Cited",
+        "Budget Forms",
         "Data Management and Sharing Plan",
         "Facilities, Equipment, and Other Resources",
         "Budget Justification",
         "Biographical Sketches",
         "Current and Pending (Other) Support",
+        "Collaborators and Other Affiliations",
+        "Detailed Cost Estimate Supplement",
         "Project Personnel and Partner Organizations",
         "Letters of Collaboration",
     ],
@@ -77,6 +81,7 @@ def extract_requirements(
     profile = ensure_profile(opportunity, overwrite=False)
     sources = load_sources(opportunity)
     local_files = list_local_source_files(opportunity.path)
+    artifact_paths = collect_artifact_paths(opportunity)
 
     extracted_signals = extract_local_signals(local_files)
     inferred_documents = FUNDING_DOCS_BY_FUNDER.get(
@@ -94,14 +99,16 @@ def extract_requirements(
             "official_source_verified": any(
                 source.get("source_type") == "official_funder_page" and source.get("verified")
                 for source in sources
-            ),
+            )
+            or extracted_signals["local_official_source_proxy_found"],
             "local_requirement_doc_found": extracted_signals["local_requirement_doc_found"],
+            "local_official_source_proxy_found": extracted_signals["local_official_source_proxy_found"],
         },
         "required_documents": [
             {
                 "name": doc_name,
                 "required": True,
-                "status": "inferred_template_until_officially_confirmed",
+                "status": "inferred_template_until_readiness_analysis",
                 "source": infer_document_source(sources),
             }
             for doc_name in inferred_documents
@@ -134,8 +141,17 @@ def extract_requirements(
             for signal in extracted_signals["formatting"]
         ],
     }
+    readiness = build_document_readiness(
+        opportunity=opportunity,
+        profile=profile,
+        requirements=requirements,
+        local_file_paths=artifact_paths,
+    )
+    apply_readiness_to_requirements(requirements, readiness)
+    requirements["document_readiness_summary"] = readiness["summary"]
 
     write_requirement_outputs(opportunity, requirements, overwrite=overwrite)
+    write_document_readiness(opportunity, readiness)
     update_analysis_markdown(opportunity, requirements)
     update_profile_from_requirements(opportunity, profile, requirements)
     return requirements
@@ -170,11 +186,20 @@ def extract_local_signals(local_files: list[Path]) -> dict[str, Any]:
     deadlines: list[str] = []
     formatting: list[str] = []
     local_requirement_doc_found = False
+    local_official_source_proxy_found = False
 
     for file_path in local_files:
         lower_name = file_path.name.lower()
         if any(token in lower_name for token in ("requirement", "instruction", "guideline", "solicitation")):
             local_requirement_doc_found = True
+        if (
+            ("nsf" in lower_name and "national science foundation" in lower_name)
+            or "notice of funding opportunity" in lower_name
+            or "solicitation" in lower_name
+            or "funding opportunity announcement" in lower_name
+            or "rfa" in lower_name
+        ):
+            local_official_source_proxy_found = True
         text = read_text_from_file(file_path)
         if not text:
             continue
@@ -203,6 +228,7 @@ def extract_local_signals(local_files: list[Path]) -> dict[str, Any]:
         "deadlines": deadlines[:20],
         "formatting": formatting[:20],
         "local_requirement_doc_found": local_requirement_doc_found,
+        "local_official_source_proxy_found": local_official_source_proxy_found,
     }
 
 
@@ -241,6 +267,47 @@ def write_requirement_outputs(
         yaml_path.write_text(render_yaml(requirements).rstrip() + "\n", encoding="utf-8")
 
 
+def apply_readiness_to_requirements(
+    requirements: dict[str, Any],
+    readiness: dict[str, Any],
+) -> None:
+    readiness_items = [item for item in readiness.get("documents", []) if isinstance(item, dict)]
+    readiness_map = {normalize_name(str(item["name"])): item for item in readiness_items}
+    for requirement in requirements.get("required_documents", []):
+        name = normalize_name(str(requirement.get("name", "")))
+        matched = readiness_map.get(name)
+        if not matched:
+            matched = next(
+                (
+                    item
+                    for item in readiness_items
+                    if name in normalize_name(str(item.get("name", "")))
+                    or normalize_name(str(item.get("name", ""))) in name
+                ),
+                None,
+            )
+        if not matched:
+            continue
+        requirement["status"] = matched["status"]
+        if matched.get("blocker_reason"):
+            requirement["blocker_reason"] = matched["blocker_reason"]
+        requirement["recommended_next_step"] = matched["recommended_next_step"]
+
+
+def normalize_name(value: str) -> str:
+    cleaned = (
+        value.lower()
+        .replace("&", "and")
+        .replace("/", " ")
+        .replace("-", " ")
+        .replace(",", " ")
+        .replace("(", " ")
+        .replace(")", " ")
+        .strip()
+    )
+    return re.sub(r"\s+", " ", cleaned)
+
+
 def update_analysis_markdown(opportunity: Opportunity, requirements: dict[str, Any]) -> None:
     analysis_dir = opportunity.path / "Analysis"
     required_documents_path = analysis_dir / "required_documents.md"
@@ -253,12 +320,24 @@ def update_analysis_markdown(opportunity: Opportunity, requirements: dict[str, A
         "",
         "Status: `draft_not_submission_ready`",
         "",
+        "Readiness summary:",
+        f"- Total required documents: `{requirements.get('document_readiness_summary', {}).get('total_required_documents', '[CONFIRM]')}`",
+        f"- Blocked documents: `{requirements.get('document_readiness_summary', {}).get('blocked_document_count', '[CONFIRM]')}`",
+        "",
         "## Required Components",
         "",
     ]
     for item in requirements["required_documents"]:
-        required_lines.append(
-            f"- `{item['name']}` | status: `{item['status']}` | source: {item['source']}"
+        blocker = item.get("blocker_reason", "None")
+        next_step = item.get("recommended_next_step", "[TODO] Determine next step.")
+        required_lines.extend(
+            [
+                f"- `{item['name']}`",
+                f"  - status: `{item['status']}`",
+                f"  - source: {item['source']}",
+                f"  - blocker: `{blocker}`",
+                f"  - next: {next_step}",
+            ]
         )
     required_lines.extend(
         [
@@ -300,6 +379,7 @@ def update_analysis_markdown(opportunity: Opportunity, requirements: dict[str, A
         "- [ ] Confirm applicant eligibility and partnering structure.",
         "- [ ] Confirm indirect cost rate and budget rules.",
         "- [ ] Confirm all required forms and attachments are complete.",
+        "- [ ] Resolve every blocked item in `Analysis/document_readiness.md`.",
         "",
         "## Deadline Signals",
         "",

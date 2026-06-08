@@ -5,6 +5,7 @@
 - [ ] Confirm applicant eligibility and partnering structure.
 - [ ] Confirm indirect cost rate and budget rules.
 - [ ] Confirm all required forms and attachments are complete.
+- [ ] Resolve every blocked item in `Analysis/document_readiness.md`.
 
 ## Deadline Signals
 

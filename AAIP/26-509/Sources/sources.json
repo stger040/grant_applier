@@ -4,7 +4,7 @@
     "url": "https://www.grants.gov/search-results-detail/NSF+26-509",
     "local_path": null,
     "source_type": "grants_gov_listing_candidate",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Candidate constructed from opportunity number; verify manually."
   },
@@ -13,7 +13,7 @@
     "url": null,
     "local_path": "Drafts/01_project_summary.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -22,7 +22,7 @@
     "url": null,
     "local_path": "Drafts/02_project_description.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -31,7 +31,7 @@
     "url": null,
     "local_path": "Drafts/03_budget_justification.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -40,16 +40,16 @@
     "url": null,
     "local_path": "Drafts/04_data_management_and_sharing_plan.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
   {
-    "title": "05_facilities_equipment_and_other_resources.md",
+    "title": "05_facilities,_equipment,_and_other_resources.md",
     "url": null,
-    "local_path": "Drafts/05_facilities_equipment_and_other_resources.md",
+    "local_path": "Drafts/05_facilities,_equipment,_and_other_resources.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -58,7 +58,61 @@
     "url": null,
     "local_path": "Drafts/06_references_cited.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "07_budget_forms.md",
+    "url": null,
+    "local_path": "Drafts/07_budget_forms.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "08_biographical_sketches.md",
+    "url": null,
+    "local_path": "Drafts/08_biographical_sketches.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "09_current_and_pending_(other)_support.md",
+    "url": null,
+    "local_path": "Drafts/09_current_and_pending_(other)_support.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "10_collaborators_and_other_affiliations.md",
+    "url": null,
+    "local_path": "Drafts/10_collaborators_and_other_affiliations.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "11_detailed_cost_estimate_supplement.md",
+    "url": null,
+    "local_path": "Drafts/11_detailed_cost_estimate_supplement.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "12_project_personnel_and_partner_organizations.md",
+    "url": null,
+    "local_path": "Drafts/12_project_personnel_and_partner_organizations.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -67,7 +121,7 @@
     "url": null,
     "local_path": "25-544.zip",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -76,7 +130,7 @@
     "url": null,
     "local_path": "Drafts/AAIP Budget Justification.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -85,7 +139,7 @@
     "url": null,
     "local_path": "Drafts/AAIP_IDC_CategoryII_Budget.xlsx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -94,7 +148,7 @@
     "url": null,
     "local_path": "25-544/Cover Letter.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -103,7 +157,7 @@
     "url": null,
     "local_path": "25-544/Data Management & Sharing Plan.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -112,7 +166,7 @@
     "url": null,
     "local_path": "Drafts/Data Management and Sharing Plan.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -121,7 +175,7 @@
     "url": null,
     "local_path": "Drafts/Detailed Cost Estimate Supplement.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -130,7 +184,7 @@
     "url": null,
     "local_path": "Drafts/Facilities, Equip. Other Resources.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -139,7 +193,7 @@
     "url": null,
     "local_path": "25-544/Facilities, Equipment, Other Resources.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -148,7 +202,7 @@
     "url": null,
     "local_path": "25-544/Letter of Collaboration - AAIP.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -157,7 +211,7 @@
     "url": null,
     "local_path": "25-544/Letter of Collaboration - IHEART signed.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -166,7 +220,7 @@
     "url": null,
     "local_path": "25-544/Letter of Collaboration - SGDI signed.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -175,7 +229,7 @@
     "url": null,
     "local_path": "25-544/Letter of Collaboration - SGDI.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -184,7 +238,7 @@
     "url": null,
     "local_path": "25-544/NSF 25-544_ Integrated Data Systems & Services (IDSS) _ NSF - U.S. National Science Foundation.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -193,7 +247,7 @@
     "url": null,
     "local_path": "NSF 26-509_ Integrated Data Systems & Services (IDSS) _ NSF - U.S. National Science Foundation.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -202,7 +256,7 @@
     "url": null,
     "local_path": "25-544/NSF Citations final.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -211,7 +265,7 @@
     "url": null,
     "local_path": "25-544/NSF Equipment List.xlsx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -220,7 +274,7 @@
     "url": null,
     "local_path": "25-544/NSF-PAPPG (Guidelines).pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -229,7 +283,7 @@
     "url": null,
     "local_path": "25-544/NSF25-544 AAIP IHEART (1).xlsx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -238,7 +292,7 @@
     "url": null,
     "local_path": "25-544/NSF25-544 Budget_SGDI (1).xlsx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -247,7 +301,7 @@
     "url": null,
     "local_path": "25-544/NSF25-544 Project Narrative.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -256,7 +310,7 @@
     "url": null,
     "local_path": "25-544/NSF25-544 Project Narrative.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -265,7 +319,7 @@
     "url": null,
     "local_path": "Drafts/Project Description.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -274,7 +328,7 @@
     "url": null,
     "local_path": "Drafts/Project Summary.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -283,7 +337,7 @@
     "url": null,
     "local_path": "Proposal Requiredment Cat II Guide.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -292,7 +346,7 @@
     "url": null,
     "local_path": "Drafts/References Cited.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -301,7 +355,7 @@
     "url": null,
     "local_path": "Required NSF 26-509 Proposal Documents.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -310,7 +364,7 @@
     "url": null,
     "local_path": "Drafts/SGDI_IDC_CategoryII_Budget.xlsx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -319,7 +373,7 @@
     "url": null,
     "local_path": "25-544/TBlair Matheson biosketch.docx",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -328,7 +382,7 @@
     "url": "https://duckduckgo.com/?q=site%3Anew.nsf.gov+%22NSF+26-509%22",
     "local_path": null,
     "source_type": "official_search_query",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Search query URL to locate authoritative funder source."
   },
@@ -337,7 +391,7 @@
     "url": "https://duckduckgo.com/?q=site%3Ansf.gov+%22NSF+26-509%22",
     "local_path": null,
     "source_type": "official_search_query",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Search query URL to locate authoritative funder source."
   }

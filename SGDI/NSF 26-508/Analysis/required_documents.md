@@ -2,18 +2,77 @@
 
 Status: `draft_not_submission_ready`
 
+Readiness summary:
+- Total required documents: `12`
+- Blocked documents: `7`
+
 ## Required Components
 
-- `Project Summary` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Project Description` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `References Cited` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Data Management and Sharing Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Facilities, Equipment, and Other Resources` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Budget Justification` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Biographical Sketches` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Current and Pending (Other) Support` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Project Personnel and Partner Organizations` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
-- `Letters of Collaboration` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-508
+- `Project Summary`
+  - status: `ready_for_realistic_draft_generation`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: Generate narrative draft using known facts and explicit placeholders.
+- `Project Description`
+  - status: `ready_for_realistic_draft_generation`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: Generate narrative draft using known facts and explicit placeholders.
+- `References Cited`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Budget Forms`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `Draft exists but person-specific/admin data is incomplete.`
+  - next: Collect missing admin/personnel data before finalizing.
+- `Data Management and Sharing Plan`
+  - status: `ready_for_realistic_draft_generation`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: Generate narrative draft using known facts and explicit placeholders.
+- `Facilities, Equipment, and Other Resources`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Budget Justification`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `final salary/fringe/indirect values; subaward detail finalization`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Biographical Sketches`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `individual PI/co-PI/senior personnel data; SciENcv export`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Current and Pending (Other) Support`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `person-specific support records for each senior person`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Collaborators and Other Affiliations`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `COA details for each senior person`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Detailed Cost Estimate Supplement`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `category-level cost basis finalization`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Project Personnel and Partner Organizations`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `final named personnel and partner roster`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Letters of Collaboration`
+  - status: `inferred_template_until_readiness_analysis`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-508
+  - blocker: `None`
+  - next: [TODO] Determine next step.
 
 ## Signals From Local Sources
 

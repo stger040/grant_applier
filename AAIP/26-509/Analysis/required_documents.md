@@ -2,18 +2,77 @@
 
 Status: `draft_not_submission_ready`
 
+Readiness summary:
+- Total required documents: `12`
+- Blocked documents: `7`
+
 ## Required Components
 
-- `Project Summary` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Project Description` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `References Cited` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Data Management and Sharing Plan` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Facilities, Equipment, and Other Resources` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Budget Justification` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Biographical Sketches` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Current and Pending (Other) Support` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Project Personnel and Partner Organizations` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
-- `Letters of Collaboration` | status: `inferred_template_until_officially_confirmed` | source: https://www.grants.gov/search-results-detail/NSF+26-509
+- `Project Summary`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Project Description`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `References Cited`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Budget Forms`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `Draft exists but person-specific/admin data is incomplete.`
+  - next: Collect missing admin/personnel data before finalizing.
+- `Data Management and Sharing Plan`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Facilities, Equipment, and Other Resources`
+  - status: `drafted`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: Perform final compliance review and page-limit check.
+- `Budget Justification`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `AAIP and SGDI budget justification coverage is incomplete.`
+  - next: Collect missing document coverage and regenerate this component.
+- `Biographical Sketches`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `Only 1 artifact(s) found; expected at least 2 for this component.`
+  - next: Collect missing document coverage and regenerate this component.
+- `Current and Pending (Other) Support`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `person-specific support records for each senior person`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Collaborators and Other Affiliations`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `Only 1 artifact(s) found; expected at least 2 for this component.`
+  - next: Collect missing document coverage and regenerate this component.
+- `Detailed Cost Estimate Supplement`
+  - status: `drafted_but_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `Draft exists but person-specific/admin data is incomplete.`
+  - next: Collect missing admin/personnel data before finalizing.
+- `Project Personnel and Partner Organizations`
+  - status: `not_started_blocked_on_admin_data`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `final named personnel and partner roster`
+  - next: Collect admin/personnel source data, then regenerate document.
+- `Letters of Collaboration`
+  - status: `inferred_template_until_readiness_analysis`
+  - source: https://www.grants.gov/search-results-detail/NSF+26-509
+  - blocker: `None`
+  - next: [TODO] Determine next step.
 
 ## Signals From Local Sources
 

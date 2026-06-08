@@ -4,16 +4,70 @@
     "url": "https://www.grants.gov/search-results-detail/RFA-DE-27-001",
     "local_path": null,
     "source_type": "grants_gov_listing_candidate",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
+    "title": "01_project_abstract.md",
+    "url": null,
+    "local_path": "Drafts/01_project_abstract.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "02_statement_of_need.md",
+    "url": null,
+    "local_path": "Drafts/02_statement_of_need.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "03_project_design_and_work_plan.md",
+    "url": null,
+    "local_path": "Drafts/03_project_design_and_work_plan.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "04_evaluation_plan.md",
+    "url": null,
+    "local_path": "Drafts/04_evaluation_plan.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "05_organizational_capacity.md",
+    "url": null,
+    "local_path": "Drafts/05_organizational_capacity.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "06_budget_narrative.md",
+    "url": null,
+    "local_path": "Drafts/06_budget_narrative.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
   },
   {
     "title": "Search Results Detail _ Grants.gov.pdf",
     "url": null,
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   }

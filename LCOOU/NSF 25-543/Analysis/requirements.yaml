@@ -1,56 +1,91 @@
 source_confidence:
-  official_source_verified: false
+  official_source_verified: true
   local_requirement_doc_found: false
+  local_official_source_proxy_found: true
 required_documents:
   -
     name: "Project Summary"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "ready_for_realistic_draft_generation"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    recommended_next_step: "Generate narrative draft using known facts and explicit placeholders."
   -
     name: "Project Description"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "ready_for_realistic_draft_generation"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    recommended_next_step: "Generate narrative draft using known facts and explicit placeholders."
   -
     name: "References Cited"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "drafted"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    recommended_next_step: "Perform final compliance review and page-limit check."
+  -
+    name: "Budget Forms"
+    required: true
+    status: "drafted_but_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "Draft exists but person-specific/admin data is incomplete."
+    recommended_next_step: "Collect missing admin/personnel data before finalizing."
   -
     name: "Data Management and Sharing Plan"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "ready_for_realistic_draft_generation"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    recommended_next_step: "Generate narrative draft using known facts and explicit placeholders."
   -
     name: "Facilities, Equipment, and Other Resources"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "drafted"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    recommended_next_step: "Perform final compliance review and page-limit check."
   -
     name: "Budget Justification"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "not_started_blocked_on_admin_data"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "final salary/fringe/indirect values; subaward detail finalization"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
   -
     name: "Biographical Sketches"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "not_started_blocked_on_admin_data"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "individual PI/co-PI/senior personnel data; SciENcv export"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
   -
     name: "Current and Pending (Other) Support"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "not_started_blocked_on_admin_data"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "person-specific support records for each senior person"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
+  -
+    name: "Collaborators and Other Affiliations"
+    required: true
+    status: "not_started_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "COA details for each senior person"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
+  -
+    name: "Detailed Cost Estimate Supplement"
+    required: true
+    status: "not_started_blocked_on_admin_data"
+    source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "category-level cost basis finalization"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
   -
     name: "Project Personnel and Partner Organizations"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "not_started_blocked_on_admin_data"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
+    blocker_reason: "final named personnel and partner roster"
+    recommended_next_step: "Collect admin/personnel source data, then regenerate document."
   -
     name: "Letters of Collaboration"
     required: true
-    status: "inferred_template_until_officially_confirmed"
+    status: "inferred_template_until_readiness_analysis"
     source: "https://www.grants.gov/search-results-detail/NSF+25-543"
 page_limit_signals:
   - "[CONFIRM] Page limits not yet extracted from authoritative source."
@@ -72,3 +107,12 @@ formatting_rules:
   -
     rule: "[CONFIRM] Formatting requirements not yet extracted from authoritative source."
     source: "local_source_text"
+document_readiness_summary:
+  total_required_documents: 12
+  by_status:
+    ready_for_realistic_draft_generation: 3
+    drafted: 2
+    drafted_but_blocked_on_admin_data: 1
+    not_started_blocked_on_admin_data: 6
+  drafted_or_ready_ratio: 0.167
+  blocked_document_count: 7

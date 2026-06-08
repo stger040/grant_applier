@@ -23,8 +23,14 @@
 - `Drafts/02_project_description.md`
 - `Drafts/03_budget_justification.md`
 - `Drafts/04_data_management_and_sharing_plan.md`
-- `Drafts/05_facilities_equipment_and_other_resources.md`
+- `Drafts/05_facilities,_equipment,_and_other_resources.md`
 - `Drafts/06_references_cited.md`
+- `Drafts/07_budget_forms.md`
+- `Drafts/08_biographical_sketches.md`
+- `Drafts/09_current_and_pending_(other)_support.md`
+- `Drafts/10_collaborators_and_other_affiliations.md`
+- `Drafts/11_detailed_cost_estimate_supplement.md`
+- `Drafts/12_project_personnel_and_partner_organizations.md`
 - `Drafts/AAIP Budget Justification.docx`
 - `Drafts/AAIP_IDC_CategoryII_Budget.xlsx`
 - `Drafts/Data Management and Sharing Plan.docx`

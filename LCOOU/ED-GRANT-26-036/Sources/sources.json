@@ -4,16 +4,70 @@
     "url": "https://www.grants.gov/search-results-detail/ED-GRANT-26-036",
     "local_path": null,
     "source_type": "grants_gov_listing_candidate",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Candidate constructed from opportunity number; verify manually."
+  },
+  {
+    "title": "01_project_abstract.md",
+    "url": null,
+    "local_path": "Drafts/01_project_abstract.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "02_project_narrative.md",
+    "url": null,
+    "local_path": "Drafts/02_project_narrative.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "03_management_plan.md",
+    "url": null,
+    "local_path": "Drafts/03_management_plan.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "04_evaluation_plan.md",
+    "url": null,
+    "local_path": "Drafts/04_evaluation_plan.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "05_budget_narrative.md",
+    "url": null,
+    "local_path": "Drafts/05_budget_narrative.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
+  },
+  {
+    "title": "06_references_and_attachments.md",
+    "url": null,
+    "local_path": "Drafts/06_references_and_attachments.md",
+    "source_type": "local_source",
+    "retrieved_date": "2026-06-08",
+    "verified": true,
+    "notes": "Local source file available in opportunity folder."
   },
   {
     "title": "Search Results Detail _ Grants.gov.pdf",
     "url": null,
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -22,7 +76,7 @@
     "url": "https://duckduckgo.com/?q=site%3Aed.gov+%22ED-GRANT-26-036%22",
     "local_path": null,
     "source_type": "official_search_query",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Search query URL to locate authoritative funder source."
   }

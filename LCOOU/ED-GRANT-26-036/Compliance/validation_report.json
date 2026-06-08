@@ -2,8 +2,12 @@
   "status": "draft_not_submission_ready",
   "opportunity": "LCOOU/ED-GRANT-26-036",
   "funder": "Department of Education",
+  "completion_score": 78.6,
   "missing_items": [],
   "placeholders_remaining": [
+    "Analysis/required_documents.md: [TODO]",
+    "Analysis/required_documents.md: [TODO]",
+    "Analysis/required_documents.md: [TODO]",
     "Analysis/required_documents.md: [CONFIRM]",
     "Analysis/required_documents.md: [CONFIRM]",
     "Analysis/human_review_todo.md: [CONFIRM]",
@@ -20,6 +24,9 @@
   ],
   "source_citation_warnings": [
     "No verified official funder page in Sources/sources.json"
+  ],
+  "readiness_warnings": [
+    "Budget Narrative: not_started_blocked_on_admin_data"
   ],
   "eligibility_warnings": [
     "[CONFIRM] Eligibility must be confirmed from official NOFO and policy guidance."

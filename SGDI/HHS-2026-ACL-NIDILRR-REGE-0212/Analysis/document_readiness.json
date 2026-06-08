@@ -1,0 +1,81 @@
+{
+  "opportunity": "SGDI/HHS-2026-ACL-NIDILRR-REGE-0212",
+  "funder": "HHS / ACL / NIDILRR",
+  "source_verified": false,
+  "admin_signal_inventory": {
+    "pi/co-pi/senior roster": false,
+    "biosketch data": false,
+    "current/pending support records": false,
+    "coa records": false,
+    "final budget rates": false
+  },
+  "summary": {
+    "total_required_documents": 4,
+    "by_status": {
+      "drafted": 2,
+      "not_started_blocked_on_admin_data": 1,
+      "not_started_blocked_on_official_source": 1
+    },
+    "drafted_or_ready_ratio": 0.5,
+    "blocked_document_count": 2
+  },
+  "documents": [
+    {
+      "name": "Project Abstract",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": true,
+      "artifact_count": 1,
+      "expected_artifacts": 1,
+      "coverage_complete": true,
+      "coverage_note": null,
+      "status": "drafted",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Project Narrative",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": true,
+      "artifact_count": 2,
+      "expected_artifacts": 1,
+      "coverage_complete": true,
+      "coverage_note": null,
+      "status": "drafted",
+      "requires_admin_data": false,
+      "admin_data_signal_present": true,
+      "blocker_reason": null,
+      "recommended_next_step": "Perform final compliance review and page-limit check."
+    },
+    {
+      "name": "Budget Narrative",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "not_started_blocked_on_admin_data",
+      "requires_admin_data": true,
+      "admin_data_signal_present": false,
+      "blocker_reason": "final budget values; indirect cost confirmation",
+      "recommended_next_step": "Collect admin/personnel source data, then regenerate document."
+    },
+    {
+      "name": "Required Federal Forms and Attachments",
+      "page_limit": "[CONFIRM]",
+      "artifact_found": false,
+      "artifact_count": 0,
+      "expected_artifacts": 1,
+      "coverage_complete": false,
+      "coverage_note": "Only 0 artifact(s) found; expected at least 1 for this component.",
+      "status": "not_started_blocked_on_official_source",
+      "requires_admin_data": true,
+      "admin_data_signal_present": true,
+      "blocker_reason": "Official funder source not yet verified.",
+      "recommended_next_step": "Verify official NOFO/policy source before generating final draft content."
+    }
+  ],
+  "benchmark_reference": []
+}

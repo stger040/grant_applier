@@ -23,6 +23,12 @@
     "official_funder_page_found": false
   },
   "known_local_source_documents": [
+    "Drafts/01_project_summary.md",
+    "Drafts/02_project_description.md",
+    "Drafts/03_budget_justification.md",
+    "Drafts/04_data_management_and_sharing_plan.md",
+    "Drafts/05_facilities_equipment_and_other_resources.md",
+    "Drafts/06_references_cited.md",
     "NSF 25-543_ Computer and Information Science and Engineering _ Future Computing Research (Future CoRe) _ NSF - U.S. National Science Foundation.pdf"
   ],
   "human_review_required": true

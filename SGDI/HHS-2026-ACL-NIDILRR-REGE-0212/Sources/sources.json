@@ -4,7 +4,7 @@
     "url": "https://www.grants.gov/search-results-detail/HHS-2026-ACL-NIDILRR-REGE-0212",
     "local_path": null,
     "source_type": "grants_gov_listing_candidate",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Candidate constructed from opportunity number; verify manually."
   },
@@ -13,7 +13,7 @@
     "url": null,
     "local_path": "Drafts/01_project_abstract.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -22,7 +22,7 @@
     "url": null,
     "local_path": "Drafts/02_project_narrative.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -31,7 +31,7 @@
     "url": null,
     "local_path": "Drafts/03_work_plan.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -40,7 +40,7 @@
     "url": null,
     "local_path": "Drafts/04_evaluation_plan.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -49,7 +49,7 @@
     "url": null,
     "local_path": "Drafts/05_organizational_capacity.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -58,7 +58,7 @@
     "url": null,
     "local_path": "Drafts/06_budget_narrative.md",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -67,7 +67,7 @@
     "url": null,
     "local_path": "Search Results Detail _ Grants.gov.pdf",
     "source_type": "local_source",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": true,
     "notes": "Local source file available in opportunity folder."
   },
@@ -76,7 +76,7 @@
     "url": "https://duckduckgo.com/?q=site%3Aacl.gov+%22HHS-2026-ACL-NIDILRR-REGE-0212%22",
     "local_path": null,
     "source_type": "official_search_query",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Search query URL to locate authoritative funder source."
   },
@@ -85,7 +85,7 @@
     "url": "https://duckduckgo.com/?q=site%3Ahhs.gov+%22HHS-2026-ACL-NIDILRR-REGE-0212%22",
     "local_path": null,
     "source_type": "official_search_query",
-    "retrieved_date": "2026-06-07",
+    "retrieved_date": "2026-06-08",
     "verified": false,
     "notes": "Search query URL to locate authoritative funder source."
   }

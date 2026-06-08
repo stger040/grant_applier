@@ -3,6 +3,9 @@
 Opportunity Number: `O-NIJ-2025-172615`
 Opportunity Title: `[CONFIRM]`
 Applicant: `St Germaine Data Innovations (SGDI)`
+Draft mode: `standard_realistic_draft`
+Readiness status: `[CONFIRM]`
+Blocking issue: `None`
 
 ## Draft Narrative
 
@@ -18,9 +21,11 @@ This draft plan for collecting data is intended for grant-writer refinement and 
 - [CONFIRM] Opportunity-specific priorities and scoring criteria language.
 - [CONFIRM] Named project personnel, partner organizations, and authorized official details.
 - [CONFIRM] Final budget values, fringe assumptions, indirect cost treatment, and match rules.
+- [CONFIRM] Readiness next step: [TODO] Determine next step.
 
 ## Source Alignment Notes
 
 - This section aligns to required-component signals including: `Proposal Abstract, Program Narrative, Goals, Objectives, and Deliverables, Capabilities and Competencies, Plan for Collecting Data, Budget Detail Worksheet and Narrative`.
+- Primary source reference for this draft: `https://www.grants.gov/search-results-detail/O-NIJ-2025-172615`.
 - Replace placeholders after validating official source requirements in `Sources/source_index.md`.
 - Do not submit until all items in `Analysis/human_review_todo.md` are resolved.

@@ -3,6 +3,9 @@
 Opportunity Number: `USDA-NIFA-TCRGP-011697`
 Opportunity Title: `[CONFIRM]`
 Applicant: `Lac Courte Oreilles Ojibwe University (LCOOU)`
+Draft mode: `standard_realistic_draft`
+Readiness status: `[CONFIRM]`
+Blocking issue: `None`
 
 ## Draft Narrative
 
@@ -18,9 +21,11 @@ This draft budget justification is intended for grant-writer refinement and fina
 - [CONFIRM] Opportunity-specific priorities and scoring criteria language.
 - [CONFIRM] Named project personnel, partner organizations, and authorized official details.
 - [CONFIRM] Final budget values, fringe assumptions, indirect cost treatment, and match rules.
+- [CONFIRM] Readiness next step: [TODO] Determine next step.
 
 ## Source Alignment Notes
 
 - This section aligns to required-component signals including: `Project Summary, Project Narrative, Management Plan, Evaluation Plan, Budget Justification, Data Management Plan (if required)`.
+- Primary source reference for this draft: `https://www.grants.gov/search-results-detail/USDA-NIFA-TCRGP-011697`.
 - Replace placeholders after validating official source requirements in `Sources/source_index.md`.
 - Do not submit until all items in `Analysis/human_review_todo.md` are resolved.
